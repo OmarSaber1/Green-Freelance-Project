@@ -1,7 +1,14 @@
 import React from "react";
+import Header from "./components/header/header";
+import NavBar from "./components/navbar";
 
 const App = () => {
-  return <div className="text-2xl text-center  bg-gray-100">GREEN IS HERE</div>;
+  return (
+    <>
+      <NavBar />
+      <Header />
+    </>
+  );
 };
 
 export default App;
